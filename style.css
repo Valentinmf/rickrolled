@@ -1,0 +1,30 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+h1,
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-link,
+.cta-link {
+    transition: background-color 0.3s ease;
+}
+
+.hero {
+    height: 50vh;
+    background: url('img/hero.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+section img {
+    max-width: 300px;
+}
+
+@media (max-width: 1024px) {
+    section img {
+        max-width: 100%;
+        margin-bottom: 1rem;
+    }
+}
